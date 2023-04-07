@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+*:focus {
+  outline: none;
+}
+
+input[type="text"] {
+  padding: 20px;
+  width: 50vh;
+  border: 0;
+  background-color: #009fbd;
+  border-radius: 0.25rem;
+  color: white;
+  transition: width 0.5s ease;
+}
+
+input[type="text"]:focus {
+  width: 100vh;
+  transition: 0.5s;
+}
+
+::placeholder {
+  color: white;
+}
+
+button {
+  padding: 15px 35px;
+  border: 0;
+  background-color: tomato;
+  color: white;
+  font-size: larger;
+  cursor: pointer;
+  transition: background-color 0.5s ease, border-radius 0.5s ease;
+  border-radius: 0.25rem;
+}
+
+button:hover {
+  background-color: rgb(46, 46, 46);
+  
+}
+
+#output {
+  padding: 20px;
+  width: 50vh;
+  border: 0;
+  background-color: #393646;
+  border-radius: 0.25rem;
+  color: white;
+  transition: width 0.5s ease;
+}
+
+textarea {
+  font-family: "Courier New", Courier, monospace !important;
+  font-weight: bold;
+}
+
