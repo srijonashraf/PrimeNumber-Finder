@@ -2,13 +2,13 @@ const button = document.querySelector("button");
 var inputField = document.querySelector("#input");
 var output = document.querySelector("#output");
 
-inputField.addEventListener("focus", function () {
-  output.style.width = "100vh";
-});
+// inputField.addEventListener("focus", function () {
+//   output.style.width = "100vh";
+// });
 
-inputField.addEventListener("blur", function () {
-  output.style.width = "50vh";
-});
+// inputField.addEventListener("blur", function () {
+//   output.style.width = "50vh";
+// });
 
 button.addEventListener("click", function () {
   const input = document.querySelector("#input").value;

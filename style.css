@@ -28,9 +28,14 @@ input[type="text"] {
   transition: width 0.5s ease;
 }
 
-input[type="text"]:focus {
+.wrapper:focus-within input[type="text"] {
   width: 100vh;
-  transition: 0.5s;
+  transition: width 0.5s ease;
+}
+
+.wrapper:focus-within #output {
+  width: 100vh;
+  transition: width 0.5s ease;
 }
 
 ::placeholder {
