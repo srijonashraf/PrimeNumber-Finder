@@ -1,3 +1,3 @@
 # PrimeNumber-Finder
 ## Live Site 
-https://srijonashraf.github.io/PrimeNumber-Finder
+https://srijonashraf.github.io/prime-number-finder
